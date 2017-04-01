@@ -8,7 +8,7 @@ Then, in the file redox/mk/userspace/mod.mk, add, in a line under `filesystem/bi
 `filesystem/bin/themer \`. Copy the window\_close and left\_ptr files from redox/filesystem/ui to redox/filesystem/home/user/. Run `make` and `make qemu`.
 
 ## Running
-Run `make qemu` from your redox directory. Open the terminal in redox, and run `cd /ui/bin`, `sudo ./themer`.
+Run `make qemu` from your redox directory. In redox, open the terminal and run `sudo themer --setup`. 
 
 ## Roadmap
 This program currently does not do much, but I hope to have it change the default /ui/orbital.conf as well as the default icons,
